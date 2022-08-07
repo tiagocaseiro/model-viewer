@@ -14,6 +14,6 @@ target_link_libraries(model-viewer
 PUBLIC
     opengl32
     ${CMAKE_SOURCE_DIR}/libs/glfw3.lib
-    ${CMAKE_SOURCE_DIR}/libs/assimp-vc142-mtd.lib
+    ${CMAKE_SOURCE_DIR}/libs/assimp.lib
     ${CMAKE_SOURCE_DIR}/libs/imgui.lib     
 )
